@@ -5,10 +5,10 @@ import socket
 target_host = "www.google.com"
 target_port = 80
 
-#ソケットオブジェクト作成
+#ソケットオブジェクトを作成
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-#サーバへ接続
+#サーバに接続
 client.connect((target_host, target_port))
 
 #データ送信
